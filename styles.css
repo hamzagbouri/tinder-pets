@@ -76,3 +76,17 @@ nav img {
     width: 80%;
     height: 100%;
 }
+.allLiked{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+  justify-items: center;
+row-gap: 20px;
+
+}
+.likedPets{
+    width: 150px ;
+    height:150px;
+    background-image: url(./image/pet4.png);
+    background-size: cover;
+    border-radius: 20px;
+}
